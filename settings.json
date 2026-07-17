@@ -1,0 +1,385 @@
+{
+  "includeCoAuthoredBy": true,
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git blame:*)",
+      "Bash(git stash list)",
+      "Bash(git remote -v)",
+      "Bash(git ls-files:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(git checkout -b:*)",
+      "Bash(git checkout:*)",
+      "Bash(git stash:*)",
+      "Bash(git restore:*)",
+      "Bash(git switch:*)",
+      "Bash(git fetch:*)",
+      "Bash(git merge:*)",
+      "Bash(git rebase:*)",
+      "Bash(ls:*)",
+      "Bash(pwd)",
+      "Bash(which:*)",
+      "Bash(mkdir:*)",
+      "Bash(pkill:*)",
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(python --version)",
+      "Bash(python3 --version)",
+      "Bash(gh:*)",
+      "Bash(npm run:*)",
+      "Bash(npm test:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npx jest:*)",
+      "Bash(npx playwright:*)",
+      "Bash(CI=true npm install -g agent-browser*)",
+      "Bash(agent-browser install*)",
+      "Bash(npx skills add https://github.com/vercel-labs/agent-browser*)",
+      "Bash(cd:*)",
+      "Edit(~/Desktop/**)",
+      "Write(~/Desktop/**)",
+      "MultiEdit(~/Desktop/**)",
+      "NotebookEdit(~/Desktop/**)",
+      "Bash(chmod +x ~/Desktop/**)",
+      "Bash(bash ~/Desktop/**)",
+      "Edit(~/Desktop/**/.claude/**)",
+      "Write(~/Desktop/**/.claude/**)",
+      "MultiEdit(~/Desktop/**/.claude/**)",
+      "NotebookEdit(~/Desktop/**/.claude/**)",
+      "Write(~/.claude/inbox/**)",
+      "Edit(~/.claude/inbox/**)",
+      "Read(~/.claude/**)",
+      "Bash(ls ~/.claude/**)",
+      "Read(~/Library/LaunchAgents/**)",
+      "Bash(ls ~/Library/LaunchAgents/**)",
+      "Bash(launchctl list:*)",
+      "Bash(launchctl print:*)",
+      "Bash(launchctl print-disabled:*)",
+      "Bash(ls /var/folders/**)",
+      "Read(/var/folders/**)",
+      "Edit(~/.claude/skills/**)",
+      "Write(~/.claude/skills/**)",
+      "MultiEdit(~/.claude/skills/**)",
+      "Edit(~/.claude/agents/**)",
+      "Write(~/.claude/agents/**)",
+      "MultiEdit(~/.claude/agents/**)",
+      "Edit(~/.claude/commands/**)",
+      "Write(~/.claude/commands/**)",
+      "MultiEdit(~/.claude/commands/**)",
+      "Bash(rm ~/.claude/skills/**)",
+      "Bash(rm -rf ~/.claude/skills/**)",
+      "Bash(rm ~/.claude/agents/**)",
+      "Bash(rm ~/.claude/commands/**)",
+      "Bash(mv ~/.claude/skills/**)",
+      "Bash(mv ~/.claude/agents/**)",
+      "Bash(mv ~/.claude/commands/**)",
+      "Edit(~/.claude/hooks/**)",
+      "Write(~/.claude/hooks/**)",
+      "MultiEdit(~/.claude/hooks/**)",
+      "Bash(bash ~/.claude/hooks/**)",
+      "Bash(chmod +x ~/.claude/hooks/**)",
+      "Bash(rm ~/.claude/hooks/**)",
+      "Edit(~/.claude/architecture/**)",
+      "Write(~/.claude/architecture/**)",
+      "MultiEdit(~/.claude/architecture/**)",
+      "Bash(mv ~/.claude/architecture/**)",
+      "Bash(rm ~/.claude/architecture/**)",
+      "Edit(~/.claude/CLAUDE.md)",
+      "Write(~/.claude/CLAUDE.md)",
+      "MultiEdit(~/.claude/CLAUDE.md)",
+      "Edit(~/.claude/settings.json)",
+      "Write(~/.claude/settings.json)",
+      "MultiEdit(~/.claude/settings.json)",
+      "Bash(jq:*)",
+      "Bash(printf:*)",
+      "Bash(echo:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(cat:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(fd:*)",
+      "Bash(wc:*)",
+      "Bash(sort:*)",
+      "Bash(uniq:*)",
+      "Bash(cut:*)",
+      "Bash(diff:*)",
+      "Bash(file:*)",
+      "Bash(stat:*)",
+      "Bash(du:*)",
+      "Bash(df:*)",
+      "Bash(date:*)",
+      "Bash(env:*)",
+      "Bash(printenv:*)",
+      "Bash(pbcopy)",
+      "Bash(pbpaste)",
+      "Bash(open:*)",
+      "Bash(sed:*)",
+      "Bash(awk:*)",
+      "Bash(find ~/.claude:*)",
+      "Bash(find ~/Desktop:*)",
+      "Bash(find ~/personal-context:*)",
+      "Bash(grep -rn * ~/personal-context*)",
+      "Read(~/personal-context/**)",
+      "Edit(~/personal-context/**)",
+      "Write(~/personal-context/**)",
+      "MultiEdit(~/personal-context/**)",
+      "Edit(~/.claude/projects/-Users-yourname-Desktop/memory/**)",
+      "Write(~/.claude/projects/-Users-yourname-Desktop/memory/**)",
+      "MultiEdit(~/.claude/projects/-Users-yourname-Desktop/memory/**)",
+      "Bash(cp ~/Desktop/**)",
+      "Bash(cp ~/.claude/**)",
+      "Bash(mv ~/Desktop/**)",
+      "Bash(mv ~/.claude/**)",
+      "mcp__claude_ai_Supabase__list_tables",
+      "mcp__claude_ai_Supabase__list_branches",
+      "mcp__claude_ai_Supabase__list_organizations",
+      "mcp__claude_ai_Supabase__list_projects",
+      "mcp__claude_ai_Supabase__list_migrations",
+      "mcp__claude_ai_Supabase__list_extensions",
+      "mcp__claude_ai_Supabase__list_edge_functions",
+      "mcp__claude_ai_Supabase__get_advisors",
+      "mcp__claude_ai_Supabase__get_cost",
+      "mcp__claude_ai_Supabase__get_edge_function",
+      "mcp__claude_ai_Supabase__get_logs",
+      "mcp__claude_ai_Supabase__get_organization",
+      "mcp__claude_ai_Supabase__get_project",
+      "mcp__claude_ai_Supabase__get_project_url",
+      "mcp__claude_ai_Supabase__get_publishable_keys",
+      "mcp__claude_ai_Supabase__search_docs",
+      "mcp__claude_ai_Supabase__generate_typescript_types",
+      "mcp__claude_ai_Supabase__confirm_cost",
+      "mcp__supabase__list_tables",
+      "mcp__supabase__list_branches",
+      "mcp__supabase__list_organizations",
+      "mcp__supabase__list_projects",
+      "mcp__supabase__list_migrations",
+      "mcp__supabase__list_extensions",
+      "mcp__supabase__list_edge_functions",
+      "mcp__supabase__get_advisors",
+      "mcp__supabase__get_cost",
+      "mcp__supabase__get_edge_function",
+      "mcp__supabase__get_logs",
+      "mcp__supabase__get_organization",
+      "mcp__supabase__get_project",
+      "mcp__supabase__get_project_url",
+      "mcp__supabase__get_publishable_keys",
+      "mcp__supabase__search_docs",
+      "mcp__supabase__generate_typescript_types",
+      "mcp__supabase__confirm_cost",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__accounts_list",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__d1_database_get",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__d1_databases_list",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__hyperdrive_config_get",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__hyperdrive_configs_list",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__kv_namespace_get",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__kv_namespaces_list",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__r2_bucket_get",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__r2_buckets_list",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__migrate_pages_to_workers_guide",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__search_cloudflare_documentation",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__workers_get_worker",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__workers_get_worker_code",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__workers_list",
+      "mcp__claude_ai_Vercel__check_domain_availability_and_price",
+      "mcp__claude_ai_Vercel__get_deployment",
+      "mcp__claude_ai_Vercel__get_deployment_build_logs",
+      "mcp__claude_ai_Vercel__get_project",
+      "mcp__claude_ai_Vercel__get_runtime_logs",
+      "mcp__claude_ai_Vercel__get_toolbar_thread",
+      "mcp__claude_ai_Vercel__list_deployments",
+      "mcp__claude_ai_Vercel__list_projects",
+      "mcp__claude_ai_Vercel__list_teams",
+      "mcp__claude_ai_Vercel__list_toolbar_threads",
+      "mcp__claude_ai_Vercel__search_vercel_documentation",
+      "mcp__claude_ai_Google_Drive__download_file_content",
+      "mcp__claude_ai_Google_Drive__get_file_metadata",
+      "mcp__claude_ai_Google_Drive__get_file_permissions",
+      "mcp__claude_ai_Google_Drive__list_recent_files",
+      "mcp__claude_ai_Google_Drive__read_file_content",
+      "mcp__claude_ai_Google_Drive__search_files"
+    ],
+    "deny": [
+      "Bash(rm -rf /:*)",
+      "Bash(rm -rf ~:*)",
+      "Bash(rm -rf ~/:*)",
+      "Bash(sudo:*)",
+      "Bash(curl * | sh:*)",
+      "Bash(curl * | bash:*)",
+      "Bash(wget * | sh:*)",
+      "Bash(wget * | bash:*)",
+      "Bash(git push --force origin main:*)",
+      "Bash(git push --force origin master:*)",
+      "Bash(git push -f origin main:*)",
+      "Bash(git push -f origin master:*)",
+      "Bash(npm publish:*)"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git clean:*)",
+      "Bash(gh pr create:*)",
+      "Bash(gh pr merge:*)",
+      "Bash(gh pr close:*)",
+      "Bash(gh issue close:*)",
+      "Bash(npm install:*)",
+      "Bash(npm install -g:*)",
+      "Bash(pip install:*)",
+      "Bash(brew install:*)",
+      "mcp__claude_ai_Supabase__apply_migration",
+      "mcp__claude_ai_Supabase__execute_sql",
+      "mcp__claude_ai_Supabase__delete_branch",
+      "mcp__claude_ai_Supabase__deploy_edge_function",
+      "mcp__supabase__apply_migration",
+      "mcp__supabase__execute_sql",
+      "mcp__supabase__delete_branch",
+      "mcp__supabase__deploy_edge_function",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__d1_database_delete",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__d1_database_query",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__kv_namespace_delete",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__r2_bucket_delete",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__hyperdrive_config_delete",
+      "mcp__claude_ai_Vercel__deploy_to_vercel"
+    ]
+  },
+  "model": "claude-fable-5[1m]",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/settings-mirror-reminder.sh",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/single-page-rule.sh",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/hook-registry-mirror-reminder.sh",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/canonical-edit-threshold.sh",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Agent",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/memory-agent-handoff-check.sh",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/post-write-verify.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/personal-context-identity.sh",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/personal-context-decisions.sh",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/personal-context-howiwork.sh",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/personal-context-voice.sh",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/personal-context-process.sh",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/personal-context-life.sh",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/personal-context-shelf.sh",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/personal-context-runtime.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/yourname/.claude/hooks/bedtime-lockout.sh",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "python3 /Users/yourname/.claude/hooks/context-router.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "compound-engineering@compound-engineering-plugin": true,
+    "superpowers@superpowers-dev": true
+  },
+  "extraKnownMarketplaces": {
+    "compound-engineering-plugin": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/EveryInc/compound-engineering-plugin.git"
+      }
+    },
+    "superpowers-dev": {
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      }
+    }
+  },
+  "tui": "fullscreen",
+  "theme": "dark-ansi",
+  "skipAutoPermissionPrompt": true,
+  "autoUpdates": true
+}

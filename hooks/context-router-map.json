@@ -1,0 +1,55 @@
+{
+  "_doc": "Keyword map for context-router.py. Edit freely — reloaded on every hook invocation. Triggers are matched case-insensitively with word boundaries; multi-word triggers ('project alpha') match runs of whitespace between tokens. Add a new entry by appending to the right list. Be specific enough to avoid false positives; avoid generic words ('table', 'data') that match unrelated questions. The entries below are EXAMPLES — replace them with your own projects and context files.",
+
+  "always": [
+    {
+      "file": "~/personal-context/projects/project-alpha.md",
+      "triggers": ["project alpha"]
+    },
+    {
+      "file": "~/Desktop/project-alpha/CLAUDE.md",
+      "triggers": ["project alpha"]
+    },
+    {
+      "file": "~/personal-context/projects/agent-os.md",
+      "triggers": ["agent os"]
+    },
+    {
+      "file": "~/personal-context/projects/day-job.md",
+      "triggers": ["day job"]
+    },
+    {
+      "file": "~/personal-context/goals/example-goal.md",
+      "triggers": ["example goal"]
+    }
+  ],
+
+  "cwd_scoped": [
+    {
+      "scope": "~/Desktop/project-alpha",
+      "entries": [
+        {
+          "file": "~/Desktop/project-alpha/.context/index.md",
+          "triggers": ["architecture", "where does", "where is"]
+        },
+        {
+          "file": "~/Desktop/project-alpha/.context/supabase.md",
+          "triggers": ["supabase", "RLS", "row level security", "migration"]
+        },
+        {
+          "file": "~/Desktop/project-alpha/.context/vercel.md",
+          "triggers": ["vercel", "deploy", "deployment", "env var", "environment variable"]
+        },
+        {
+          "file": "~/Desktop/project-alpha/.context/code-layout/index.md",
+          "triggers": ["code layout", "file structure", "module map"]
+        }
+      ]
+    }
+  ],
+
+  "config": {
+    "total_budget_bytes": 20480,
+    "per_file_max_bytes": 8192
+  }
+}
